@@ -25,3 +25,12 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
 )
+
+file_permissions=(
+  ["/root/install_scripts/install_yay.sh"]="0:0:755"
+)
+
+
+run_once() {
+    arch-chroot "${airootfs}" /root/install_scripts/install_yay.sh
+}
