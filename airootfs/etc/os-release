@@ -1,0 +1,13 @@
+NAME="Orion OS"
+PRETTY_NAME="Orion OS"
+ID=orion
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://github.com/Adham-Dev/Orion-OS"
+DOCUMENTATION_URL="https://github.com/Adham-Dev/Orion-OS"
+SUPPORT_URL="https://github.com/Adham-Dev/Orion-OS"
+BUG_REPORT_URL="https://github.com/Adham-Dev/Orion-OS"
+PRIVACY_POLICY_URL="https://adham-dev.github.io/Orion/"
+LOGO=archlinux-logo
+
+
