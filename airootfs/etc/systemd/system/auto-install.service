@@ -1,0 +1,9 @@
+[Unit]
+Description=Automatic Installation Script
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /tmp/auto-install.sh
+
+[Install]
+WantedBy=multi-user.target
