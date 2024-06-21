@@ -132,7 +132,6 @@ gnome-extra
 gdm
 neofetch
 firefox
-
 arandr
 wayland
 wayland-protocols
@@ -168,4 +167,3 @@ xorg-xset
 xorg-xsetroot
 xterm
 xwallpaper
-
