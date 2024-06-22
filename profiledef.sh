@@ -30,6 +30,7 @@ file_permissions=(
 
 run_once() {
     arch-chroot "${airootfs}" /root/install_scripts/install_yay.sh
-    arch-chroot "${airootfs}" /root/install_scripts/enable_gdm.sh
+    systemctl enable lightdm.service
+    systemctl enable NetworkManager.service
     systemctl start gdm
 }
