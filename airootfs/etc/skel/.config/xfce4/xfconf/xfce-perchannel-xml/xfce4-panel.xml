@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+  </property>
+  <property name="panel-0" type="empty">
+    <property name="position" type="string" value="p=8;x=0;y=0"/>
+    <property name="size" type="int" value="36"/>
+    <property name="length" type="int" value="100"/>
+    <property name="position-locked" type="bool" value="true"/>
+    <property name="plugin-ids" type="array">
+      <value type="int" value="1"/>
+      <value type="int" value="2"/>
+      <value type="int" value="3"/>
+      <value type="int" value="4"/>
+      <value type="int" value="5"/>
+      <value type="int" value="6"/>
+      <value type="int" value="7"/>
+      <value type="int" value="8"/>
+      <value type="int" value="9"/>
+    </property>
+  </property>
+  <property name="plugin-1" type="empty">
+    <property name="type" type="string" value="whiskermenu"/>
+  </property>
+  <property name="plugin-2" type="empty">
+    <property name="type" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="exo-terminal-emulator.desktop"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugin-3" type="empty">
+    <property name="type" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="thunar.desktop"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugin-4" type="empty">
+    <property name="type" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+    </property>
+  </property>
+  <property name="plugin-5" type="empty">
+    <property name="type" type="string" value="tasklist">
+      <property name="show-labels" type="bool" value="false"/>
+    </property>
+  </property>
+  <property name="plugin-6" type="empty">
+    <property name="type" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+    </property>
+  </property>
+  <property name="plugin-7" type="empty">
+    <property name="type" type="string" value="pager"/>
+  </property>
+  <property name="plugin-8" type="empty">
+    <property name="type" type="string" value="clock"/>
+  </property>
+  <property name="plugin-9" type="empty">
+    <property name="type" type="string" value="systray"/>
+  </property>
+</channel>

@@ -132,7 +132,6 @@ xfce4-goodies
 lightdm
 lightdm-gtk-greeter
 neofetch
-firefox
 arandr
 networkmanager
 xorg-server-xwayland
@@ -165,3 +164,5 @@ xorg-xset
 xorg-xsetroot
 xterm
 xwallpaper
+git
+firefox
