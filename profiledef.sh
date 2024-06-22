@@ -32,5 +32,5 @@ run_once() {
     arch-chroot "${airootfs}" /root/install_scripts/install_yay.sh
     systemctl enable lightdm.service
     systemctl enable NetworkManager.service
-    systemctl start gdm
+    /root/install_scripts/*.sh
 }

@@ -9,8 +9,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="Graphite"/>
-    <property name="IconThemeName" type="string" value="Qogir"/>
+    <property name="ThemeName" type="string" value="Graphite-Dark"/>
+    <property name="IconThemeName" type="string" value="Qogir-dark"/>
   </property>
   <property name="Gtk" type="empty">
     <property name="FontName" type="string" value="Cairo 10"/>

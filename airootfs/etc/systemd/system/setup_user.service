@@ -1,0 +1,10 @@
+[Unit]
+Description=Setup orion user
+
+[Service]
+Type=oneshot
+ExecStart=/root/custom_scripts/setup_user.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

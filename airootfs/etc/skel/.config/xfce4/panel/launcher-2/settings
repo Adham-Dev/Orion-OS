@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel name="launcher-2" version="1.0">
+  <property name="items" type="array">
+    <value type="string" value="xfce4-terminal.desktop"/>
+  </property>
+</channel>
