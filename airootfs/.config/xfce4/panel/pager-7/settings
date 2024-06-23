@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel name="pager-7" version="1.0">
+  <property name="rows" type="uint" value="1"/>
+  <property name="show-names" type="bool" value="false"/>
+  <property name="wrap-workspaces" type="bool" value="true"/>
+</channel>

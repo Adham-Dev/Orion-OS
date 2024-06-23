@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channel name="whiskermenu" version="1.0">
+  <property name="button-icon" type="string" value="start-here"/>
+</channel>
