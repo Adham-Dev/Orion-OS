@@ -28,10 +28,9 @@ file_permissions=(
 )
 
 run_once() {
-    arch-chroot "${airootfs}" /root/install_scripts/install_yay.sh
-    systemctl enable lightdm.service
-    systemctl enable NetworkManager.service
+    systemctl enable lightdm
     systemctl start lightdm
+    systemctl enable NetworkManager.service
     xfconf-query -c xsettings -p /Net/ThemeName -s "Graphite-Dark"
     xfconf-query -c xsettings -p /Net/IconThemeName -s "Qogir"
 }

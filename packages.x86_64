@@ -162,8 +162,5 @@ xorg-xprop
 xorg-xrdb
 xorg-xset
 xorg-xsetroot
-xterm
-xwallpaper
 git
 firefox
-terminator
