@@ -36,4 +36,6 @@ run_once() {
     systemctl start lightdm
     /root/install_scripts/setup_user.sh
     /root/install_scripts/install_yay.sh
+    xfconf-query -c xsettings -p /Net/ThemeName -s "Graphite-Dark"
+    xfconf-query -c xsettings -p /Net/IconThemeName -s "Qogir"
 }
