@@ -26,11 +26,13 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/root/install_scripts/install_yay.sh"]="0:0:755"
+  ["/root/install_scripts/setup_user.sh"]="0:0:755"
 )
 
 run_once() {
     arch-chroot "${airootfs}" /root/install_scripts/install_yay.sh
     systemctl enable lightdm.service
     systemctl enable NetworkManager.service
-    /root/install_scripts/*.sh
+    /root/install_scripts/setup_user.sh
+    /root/install_scripts/install_yay.sh
 }
