@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<channel name="clock-8" version="1.0">
-  <property name="format" type="string" value="%Y-%m-%d %H:%M"/>
-</channel>

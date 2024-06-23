@@ -25,8 +25,6 @@ file_permissions=(
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
-  ["/root/install_scripts/install_yay.sh"]="0:0:755"
-  ["/root/install_scripts/setup_user.sh"]="0:0:755"
 )
 
 run_once() {
@@ -34,8 +32,6 @@ run_once() {
     systemctl enable lightdm.service
     systemctl enable NetworkManager.service
     systemctl start lightdm
-    /root/install_scripts/setup_user.sh
-    /root/install_scripts/install_yay.sh
     xfconf-query -c xsettings -p /Net/ThemeName -s "Graphite-Dark"
     xfconf-query -c xsettings -p /Net/IconThemeName -s "Qogir"
 }

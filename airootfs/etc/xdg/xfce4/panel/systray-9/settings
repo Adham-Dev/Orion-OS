@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<channel name="systray-9" version="1.0">
-  <property name="show-frame" type="bool" value="false"/>
-  <property name="icon-size" type="uint" value="32"/>
-</channel>
